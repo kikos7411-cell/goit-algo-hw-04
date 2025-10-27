@@ -12,7 +12,7 @@ def get_cats_info(path):
 
                 if len(part) == 3:
                     id, name, age = part
-                    person = {f"id: {id}, name: {name}, age: {age}"}
+                    person = {'id': id, 'name': name, 'age': age}
                     # try:
                     if age <= '0':
                         print(f"Помилка: некоректний рядок '{line.strip()}'")
